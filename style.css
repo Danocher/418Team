@@ -1,0 +1,123 @@
+body {
+    font-family: "San Francisco Pro Display Thin", sans-serif;
+}
+Header {
+    background-image: url("images/ggez.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(50px);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "San Francisco Pro Display Thin", sans-serif;
+    height: 100vh;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-p {
+    font-size: 57px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    font-size: 17px;
+    align-items: center;
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 100%;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.dot {
+    border: 2px solid;
+    border-radius: 100%;
+    padding: 0 11px;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.maintxt {
+color: #ffffff;
+    align-items: center;
+}
+.tt {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(60px);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.between {
+    margin-left: 6px;
+}
+@font-face {
+    font-family: 'San Francisco Pro Display Thin';
+    url('SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+    align-items: center;
+    padding: 10px;
+
+}
+.dot span {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+.img-dot {
+    width: 37px;
+    height: 37px;
+    position: absolute;
+}
+.tt a:hover  {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.tt a {
+    padding: 12px 36px;
+}
+.sect-about {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.left {
+    font-size: 16px;
+    color: #6d6e72;
+    padding: 14px 0 0 0;
+    margin-left: 10px;
+}
+.tabs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 115%;
+}
+.about-head {
+    padding: 5px 12px;
+    margin-right: 6px;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    backdrop-filter: blur(60px);
+    color: #6D6E72;
+    margin-bottom: 10px;
+}
+.about-head:hover {
+    background-color: gray;
+}
